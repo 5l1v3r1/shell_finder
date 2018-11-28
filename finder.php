@@ -23,7 +23,7 @@ print "$cyan
 $white ==============================[$yellow Ver.3.0$white ]========
 
 $cyan By$red   :$white N1ght.Hax0r
-$cyan List$red :$white 235 list
+$cyan List$red :$white 1501 list
 
 $white ==============[$yellow Code Your Freedom$white ]==============
 
