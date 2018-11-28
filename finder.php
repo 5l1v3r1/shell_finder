@@ -22,17 +22,17 @@ print "$cyan
 
 $white ==============================[$yellow Ver.3.0$white ]========
 
-$okegreen By$red   :$white N1ght.Hax0r
-$okegreen List$red :$white 235 list
+$cyan By$red   :$white N1ght.Hax0r
+$cyan List$red :$white 235 list
 
 $white ==============[$yellow Code Your Freedom$white ]==============
 
-$okegreen 01$red :$white Find Shell
-$okegreen 02$red :$white More Tools
-$okegreen 03$red :$white Credits
+$cyan 01$red :$white Find Shell
+$cyan 02$red :$white More Tools
+$cyan 03$red :$white Credits
 ";
 echo "
-$okegreen Menu$red >$white ";
+$cyan Menu$red >$white ";
 $menu = trim(fgets(STDIN));
 if ($menu == '01' OR $menu == '1')
 	{
@@ -47,7 +47,7 @@ if ($menu == '01' OR $menu == '1')
 			}
 		else
 			{
-				echo "$okegreen List$red >$white ";
+				echo "$cyan List$red >$white ";
 				$list = trim(fgets(STDIN));
 			}
 		if(!preg_match("/^http:\/\//",$target) AND !preg_match("/^https:\/\//",$target))
@@ -90,7 +90,7 @@ if ($menu == '01' OR $menu == '1')
 			}
 		echo "$lightgreen
 
-[!]==// Result OK reported to result/$target.txt\n\n $white ";
+[!]==// Result OK reported to $target.txt\n\n $white ";
 	}
 
 if ($menu == '02' OR $menu == '2')
