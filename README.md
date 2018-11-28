@@ -1,2 +1,2 @@
 # shell_finder
-Shell Finder by N1ght.Hax0r
+Shell finder by N1ght.Hax0r
